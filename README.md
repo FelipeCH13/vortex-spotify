@@ -49,7 +49,7 @@ El análisis y las visualizaciones se desarrollaron utilizando el ecosistema de 
 ### 1. ¿Cuáles son los atributos de audio que más influyen en la Popularidad?
 Identificaremos mediante una **Matriz de Correlación** si la "energía" o la "capacidad de baile" tienen una relación directa con el éxito comercial.
 
-`![Matriz de Correlacion](images/matriz_correlacion.png)`
+![Matriz de Correlacion](images/matriz_correlacion.png)
 
 
 
