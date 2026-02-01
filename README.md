@@ -49,7 +49,7 @@ El análisis y las visualizaciones se desarrollaron utilizando el ecosistema de 
 ### 1. ¿Cuáles son los atributos de audio que más influyen en la Popularidad?
 Identificaremos mediante una **Matriz de Correlación** si la "energía" o la "capacidad de baile" tienen una relación directa con el éxito comercial.
 
-`![Matriz de Correlacion](images\matriz_correlacion.png)`
+`![Matriz de Correlacion](images/matriz_correlacion.png)`
 
 
 
@@ -61,11 +61,11 @@ Al construir una matriz de correlacion entre todas las variables numericas del d
 
 ### 🔍 Insight: Correlación Energía vs. Popularidad (Música Clásica)
 
-`![Matriz de Correlacion](images\matriz_correlacion_classical.png)`
+`![Matriz de Correlacion](images/matriz_correlacion_classical.png)`
 
 Al analizar la relación entre la energía y la popularidad en el género `classical`, se identificó una **correlación positiva moderada (0.41)**. Sin embargo, el análisis visual del diagrama de dispersión revela lo siguiente:
 
-`![Relacion Energia VS Popularidad](images\relacion_energia_popularidad.png)`
+`![Relacion Energia VS Popularidad](images/relacion_energia_popularidad.png)`
 
 * **Concentración de Éxito:** La mayoría de las canciones con popularidad superior a **40** se encuentran en el rango de energía de **[0.4 - 0.9]**, sugiriendo que la intensidad es un factor relevante para el algoritmo de recomendación o el gusto del oyente actual. 🎻
 * **Efecto de Incertidumbre:** Se observa un ensanchamiento del intervalo de confianza (sombra rosada) en niveles de energía extremos ($>0.7$). Esto se debe a la **baja densidad de datos** en ese rango, lo que indica que las piezas clásicas de alta energía son atípicas en el dataset. 🧊
@@ -80,11 +80,11 @@ Tras analizar la relación entre el ritmo y la popularidad, se determinaron las 
 
 * **Zona de Estabilidad:** La mayor densidad de canciones se concentra entre los **80 y 150 BPM**. En este rango, la popularidad se mantiene sumamente estable (alrededor de los 35 puntos), lo que sugiere que el tempo no es un factor determinante por sí solo para el éxito, sino un estándar de la industria. 🎹
 
-`![Histograma](images\histograma_tempo.png)`
+`![Histograma](images/histograma_tempo.png)`
 
 * **Sesgo de Datos (Outliers):** Se observan picos artificiales en los extremos ($<30$ y $>200$ BPM). Sin embargo, el análisis de volumen confirma que estos puntos representan una muestra insignificante de canciones, por lo que no deben considerarse "ritmos ideales". 🚩
 
-`![Relacion Tempo-Popularidad](images\tempo_popularidad.png)`
+`![Relacion Tempo-Popularidad](images/tempo_popularidad.png)`
 
 * **El "Beat" Comercial:** El ligero incremento observado cerca de los **140 BPM** coincide con los picos de géneros populares modernos, mostrando una leve preferencia de la audiencia por ritmos más energéticos. ⚡(Aqui se encuentran canciones como Silence, Viva La Vida, etc.)
 
@@ -92,7 +92,7 @@ Tras analizar la relación entre el ritmo y la popularidad, se determinaron las 
 
 A partir de la comparativa entre los perfiles **Top** (Popularidad > 80) y **Bottom** (Popularidad < 20), se definen los siguientes hallazgos estadísticos:
 
-`![ADN Musical](images\resultado_adn.png)`
+`![ADN Musical](images/resultado_adn.png)`
 
 * **Producción y Sonoridad 🎹**: Las canciones exitosas muestran un **acousticness** significativamente menor (**0.18** vs **0.30**). El mercado actual tiene una preferencia clara por producciones con alta intervención de estudio y sonidos sintetizados.
 * **La Voz como Factor de Éxito 🎙️**: Existe una brecha crítica en **instrumentalness**. Mientras que el perfil Top tiene un valor casi nulo (**0.02**), el perfil Bottom es diez veces mayor (**0.20**). La ausencia de voces penaliza la popularidad masiva.
