@@ -90,17 +90,15 @@ Al analizar la relación entre la energía y la popularidad en el género `class
 ### 2. ¿Existe un "Tempo" (BPM) ideal para ser popular?
 Analizaremos la distribución de la velocidad de las canciones frente a su recepción por el público.
 
-### 🥁 Insight: ¿Existe un Tempo (BPM) ideal?
-
 Tras analizar la relación entre el ritmo y la popularidad, se determinaron las siguientes conclusiones:
-
-* **Zona de Estabilidad:** La mayor densidad de canciones se concentra entre los **80 y 150 BPM**. En este rango, la popularidad se mantiene sumamente estable (alrededor de los 35 puntos), lo que sugiere que el tempo no es un factor determinante por sí solo para el éxito, sino un estándar de la industria. 🎹
 
 ![Histograma](images/histograma_tempo.png)
 
-* **Sesgo de Datos (Outliers):** Se observan picos artificiales en los extremos ($<30$ y $>200$ BPM). Sin embargo, el análisis de volumen confirma que estos puntos representan una muestra insignificante de canciones, por lo que no deben considerarse "ritmos ideales". 🚩
+* **Zona de Estabilidad:** La mayor densidad de canciones se concentra entre los **80 y 150 BPM**. En este rango, la popularidad se mantiene sumamente estable (alrededor de los 35 puntos), lo que sugiere que el tempo no es un factor determinante por sí solo para el éxito, sino un estándar de la industria. 🎹
 
 ![Relacion Tempo-Popularidad](images/tempo_popularidad.png)
+
+* **Sesgo de Datos (Outliers):** Se observan picos artificiales en los extremos ($<30$ y $>200$ BPM). Sin embargo, el análisis de volumen confirma que estos puntos representan una muestra insignificante de canciones, por lo que no deben considerarse "ritmos ideales". 🚩
 
 * **El "Beat" Comercial:** El ligero incremento observado cerca de los **140 BPM** coincide con los picos de géneros populares modernos, mostrando una leve preferencia de la audiencia por ritmos más energéticos. ⚡(Aqui se encuentran canciones como Silence, Viva La Vida, etc.)
 
