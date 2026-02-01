@@ -46,7 +46,7 @@ El análisis y las visualizaciones se desarrollaron utilizando el ecosistema de 
 
 ## 📊 Preguntas de Negocio
 
-### 1. ¿Cuáles son los atributos de audio que más influyen en la Popularidad?
+## 1. ¿Cuáles son los atributos de audio que más influyen en la Popularidad?
 Identificaremos mediante una **Matriz de Correlación** si la "energía" o la "capacidad de baile" tienen una relación directa con el éxito comercial.
 
 ![Matriz de Correlacion](images/matriz_correlacion.png)
@@ -54,8 +54,6 @@ Identificaremos mediante una **Matriz de Correlación** si la "energía" o la "c
 
 
 Al construir una matriz de correlacion entre todas las variables numericas del dataset, fue posible observar que al utilizar todas las canciones, no existe una correlación fuerte entre alguna de las variables y la popularidad.
-
-## 🔍 Análisis de Correlación y Hallazgos Clave
 
 Al analizar la matriz de correlación de las variables técnicas, hemos identificado los siguientes patrones que definen la estructura sonora del dataset:
 
@@ -75,7 +73,7 @@ La **Popularidad** muestra correlaciones cercanas a cero con la mayoría de los 
 - En el genero j-pop, se observo una correlacion positiva moderada entre la popularidad y la energia (0.40)
 - En el genero pagode, se observo una correlacion positiva moderada entre la popularidad y acousticness (0.33)
 
-### 🔍 Insight: Correlación Energía vs. Popularidad (Música Clásica)
+### 🔍 Correlación Energía vs. Popularidad (Música Clásica)
 
 ![Matriz de Correlacion](images/matriz_correlacion_classical.png)
 
@@ -87,7 +85,7 @@ Al analizar la relación entre la energía y la popularidad en el género `class
 * **Efecto de Incertidumbre:** Se observa un ensanchamiento del intervalo de confianza (sombra rosada) en niveles de energía extremos ($>0.7$). Esto se debe a la **baja densidad de datos** en ese rango, lo que indica que las piezas clásicas de alta energía son atípicas en el dataset. 🧊
 * **Barrera de Entrada:** Existe una alta densidad de pistas con popularidad **0** en todos los niveles de energía, lo que confirma que la energía es un "impulsor" pero no una garantía de éxito comercial por sí sola. 🚫
 
-### 2. ¿Existe un "Tempo" (BPM) ideal para ser popular?
+## 2. ¿Existe un "Tempo" (BPM) ideal para ser popular?
 Analizaremos la distribución de la velocidad de las canciones frente a su recepción por el público.
 
 Tras analizar la relación entre el ritmo y la popularidad, se determinaron las siguientes conclusiones:
@@ -102,7 +100,7 @@ Tras analizar la relación entre el ritmo y la popularidad, se determinaron las 
 
 * **El "Beat" Comercial:** El ligero incremento observado cerca de los **140 BPM** coincide con los picos de géneros populares modernos, mostrando una leve preferencia de la audiencia por ritmos más energéticos. ⚡(Aqui se encuentran canciones como Silence, Viva La Vida, etc.)
 
-### 3. ¿Qué diferencias existen entre las canciones más y menos populares?
+## 3. ¿Qué diferencias existen entre las canciones más y menos populares?
 
 A partir de la comparativa entre los perfiles **Top** (Popularidad > 80) y **Bottom** (Popularidad < 20), se definen los siguientes hallazgos estadísticos:
 
@@ -115,11 +113,10 @@ A partir de la comparativa entre los perfiles **Top** (Popularidad > 80) y **Bot
 
 -------
 
-### 🚀 Implementación y Uso
+## 🚀 Implementación y Uso
 
 Para replicar este análisis en tu entorno local, sigue estos pasos:
 
-### 🚀 Implementación y Uso
 
 Sigue estos pasos para configurar el proyecto en tu máquina local:
 
