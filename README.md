@@ -120,4 +120,6 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
     pip install -r requirements.txt
     ``` 
 4. **Ejecutar el análisis:**
-    
+   ```bash
+   python main.py
+   ```
